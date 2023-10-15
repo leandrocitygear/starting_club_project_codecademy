@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+    width: 100%;
+    background-color: black;
+    font-family: 'Orbitron', sans-serif;
+    color:white;
+}
+
+header {
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 30;
+    width: 100%;
+    font-size: 1.9rem;
+    background-color: black;
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    /* color: #00fdfc; */
+    color: #DC0000;
+}
+
+
+li {
+    display: inline-block;
+    padding-right: 30px;
+}
+
+main {
+    width: 100%;
+    margin-bottom: 90px;
+}
+
+.banner {
+    /* background-image: url("./Resorses/1214059.png"); */
+    background-image: url("./Resorses/ferrari-f1-75.jpg");
+    /* background-image: url("./Resorses/M362309.jpg"); */
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    margin-bottom: 90px;
+    /* border: solid; */
+}
+
+.team10 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+    border-bottom: solid;
+    font-size: 1.5rem ;
+    word-spacing: 3px;
+    margin: 40px 65px;
+    padding-bottom: 5px;
+}
+
+figure {
+    /* border: solid; */
+    margin: 20px;
+}
+
+img {
+    width: 380px;
+    height: 200px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3.5rem;
+    color: #DC0000;
+}
+
+#trackdays {
+    margin: 90px 0;
+}
+
+.tracks {
+    display: flex;
+    width: 100%;
+    /* border: solid; */
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+
+.tracks img {
+    width: 350px;
+    height: 450px;
+}
+
+.meets {
+    display: flex;
+    justify-content: center;
+}
+
+.meets img {
+    width: 590px;
+    height: 400px;
+}
+
+figcaption {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+footer {
+    margin-bottom: 50px;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+}
